@@ -1,0 +1,31 @@
+#nav-menu {
+  background-color: #bae8e8;
+  font-weight: bold;
+}
+
+#game {
+  width: 650px;
+  height: 650px;
+  margin: 0 auto;
+  background-color: #ffd803;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+#game .cell {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#game .cell.clicked {
+  background-color: #bae8e8;
+  border-radius: 2px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #272343;
+}
